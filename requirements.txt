@@ -1,0 +1,5 @@
+opencv-python
+"numpy<1.24"
+scikit-video
+scikit-learn
+h5py
