@@ -7,8 +7,6 @@ import numpy as np
 from threading import Thread
 import os
 
-tf.config.list_physical_devices('GPU')
-
 INPUT_SHAPE = (64, 128, 128, 3)
 NUM_CLASSES = 2
 
@@ -75,7 +73,7 @@ def load_video():
     fontScale = 1
     thickness = 4
     s=0
-    vid = cv2.VideoCapture('video5.mp4')
+    vid = cv2.VideoCapture('video.mp4')
     frames=[]
     success=True
     while success :
