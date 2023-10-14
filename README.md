@@ -34,5 +34,8 @@ Violence Detection ViViT
   python inference.py
   ```
 
+### Demo
+https://github.com/dongdong138/ViolenceDetectionViViT/assets/87899914/18186b1f-b71f-4881-9fd0-9b22e71b11fc
+
 
 Reference: ViViT: [A Video Vision Transformer](https://arxiv.org/abs/2103.15691)
